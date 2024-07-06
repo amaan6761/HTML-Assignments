@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 50%;
+    width: 50%;
+    /* background-color: blue; */
+    margin: 50px auto;
+}
+.login{
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: blue;
+    color: white;
+} 
+.facebook{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
